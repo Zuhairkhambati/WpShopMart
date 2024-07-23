@@ -1,0 +1,296 @@
+body{
+    overflow-x: hidden;
+}
+.nav-item{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+
+
+.navbar-brand{
+    margin-left: 30px;
+    height: 62px;
+    padding-bottom: 0;
+    padding-top: 0%;
+}
+
+.card-img{
+    height: 555px;
+    margin-top: 50px;
+    width: 1500px;
+}
+
+.card-title{
+    background: #000;
+    width: 400px;
+    height: 50px;
+    text-align: start;
+    position: relative;
+    top: 360px;
+    left: 20px;
+    padding: 5px 10px;
+}
+.card-text{
+    background-color: rgb(0 0 0 / 70%);
+    width: 400px;
+    text-align: start;
+    position: relative;
+    top: 360px;
+    left: 20px;
+    padding: 5px 10px;
+    font-family: "Arial Narrow";
+}
+
+
+
+.card-text2{
+    background-color: white;
+    width: 370px;
+    text-align: start;
+    position: relative;
+    top: 340px;
+    left: 80%;
+    padding: 5px 10px;
+    font-family: "Arial Narrow";
+    font-size: small;
+}
+.col{
+    padding: 40px 10px;
+}
+.heading{
+    font-size: 40px;
+    margin-right: 50px;
+    font-family: "Zurich Cn BT";
+    font-weight: normal;
+    color: #0068a8;
+    text-transform: uppercase;
+    margin: 0;
+    
+}
+
+.company-stats{
+    text-align: center;
+    padding-right: 90px;
+    font-family: "Zurich Cn BT";
+    font-weight: normal;
+    color: #0068a8;
+    text-transform: uppercase;
+    margin: 0;
+}
+.h1{
+    font-size: 2.5rem;
+}
+
+.background {
+    background-image: url(https://greenbase.com/assets/images/banner_new1.png);
+    background-size: cover;
+    height: 800px;
+    opacity: 0.75;
+}
+
+.incard{
+    height: 300px;
+    width: 400px;
+    justify-content: center;
+    position: absolute;
+    margin-left: 50px;
+    padding: 0px 5px;
+    margin-top: 0px;
+    background: rgb(0, 0, 54) ;
+    opacity: 0.95;
+
+}
+
+.incard1{
+    height: 300px;
+    width: 400px;
+    justify-content: center;
+    position: absolute;
+    margin-left: 50px;
+    padding: 0px 5px;
+    margin-top: 0px;
+    background: white ;
+    opacity: 0.55;
+
+}
+
+.incard ::after{
+content: "";
+width: 2px;
+height: 50%;
+position: absolute;
+background-color: white;
+right: -50px;
+top: 250px;
+}
+
+.incard ::before{
+    content: "";
+    width: 50%;
+    height: 2px;
+    position: absolute;
+    background-color: white;
+    bottom: -17px;
+    right: -150px;
+}
+
+.incard1 ::after{
+    content: "";
+    width: 2px;
+    height: 50%;
+    position: absolute;
+    background-color: white;
+    right: -50px;
+    top: 250px;
+    }
+    
+    .incard1 ::before{
+        content: "";
+        width: 50%;
+        height: 2px;
+        position: absolute;
+        background-color: white;
+        bottom: -17px;
+        right: -150px;
+    }
+
+
+    .incard0-title{
+        justify-content: center;
+        color: white;
+        margin-left: 15px;
+        margin-top: 50px;
+        padding: 15px 10px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    
+    .incard0-text{
+        justify-content: center;
+        color: white;
+        margin-left: 15px;
+        padding: 5px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+.incard-title{
+    justify-content: center;
+    color: black;
+    margin-left: 15px;
+    margin-top: 50px;
+    padding: 15px 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.incard-text{
+    justify-content: center;
+    color: black;
+    margin-left: 15px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.incard2{
+    height: 300px;
+    width: 400px;
+    justify-content: center;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 250px;
+    background: white;
+    opacity: 0.55;
+}
+
+.background2 {
+    background-image: url(https://greenbase.com/assets/images/about/legacy_banner.jpg);
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    opacity: 0.25;
+}
+
+.vision-text{
+    justify-content: center;
+    color: white;
+    font-weight: 200;
+    margin-left: 75px;
+    position: absolute;
+    margin-top: 50px;
+    font-size: 55px;
+    
+}
+
+.incardv{
+    height: 500px;
+    position: absolute;
+    margin-left: 700px;
+    background-color: darkblue;
+    width: 700px;
+    border: white;
+    box-sizing: border-box;
+
+}
+
+.incardv-body{
+    border: white;
+    box-sizing: border-box;
+}
+ .video{
+    padding: 0px 0px;
+    justify-content: start;
+    align-items: start;
+    margin-left: -88px;
+ }
+
+ .page-footer{
+    height: 175px;
+    color: white;
+    display: flex;
+    
+    
+
+ }
+
+ .page-footer h1{
+    margin-left: -100px;
+    justify-content: start;
+    
+ }
+
+.footer-nav{
+    padding-left: 10px;
+    position: relative;
+ }
+
+ .btn{
+    color: white;
+    width: 100px;
+    text-align: center;
+    
+ }
+
+ .list{
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: 200;
+ }
+
+ .list ::before{
+    content: "";
+    width: 2px;
+    height: 5px;
+    position: absolute;
+    background-color: white;
+    left: -15px;
+    top: -15px;
+ }
+
+
+
